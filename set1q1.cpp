@@ -6,7 +6,8 @@ int main() {
  int a;
  cout<<"enter the value";
  cin>>a;
- if(a<0){
+ if(a !=0){
+	 if(a<0){
  	cout<<"the number is negative";
  }
  else if(a>0){
@@ -14,6 +15,10 @@ int main() {
  }
  else{
  	cout<<"the number is zero";
+ }
+ }
+ else{
+	 cout<<"enter any intger";
  }
 	return 0;
 }
